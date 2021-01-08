@@ -1,11 +1,13 @@
 import './App.css';
+import AddCounter from './AddCounter';
+import CounterList from './CounterList';
+
 
 function App() {
   return (
     <div className="App">
-      <div>
-        Hello yo!
-      </div>
+      <AddCounter />
+      <CounterList counters={[{name: 'hello'}, {name: 'yoyo'}]}/>
     </div>
   );
 }
