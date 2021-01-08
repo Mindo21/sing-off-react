@@ -3,7 +3,7 @@ function Counter(props) {
     <div>
       <p class="counter">
         <span class="samewidth">
-        Counter <span class="counter_name">{props.name || 'error'}</span>: <span class="counter_value">error</span>
+        Counter <span class="counter_name">{props.name || 'error'}</span>: <span class="counter_value">{props.value || 'error'}</span>
         </span>
         <input type="number" class="counter_newval" />
         <button class="add">add</button>
