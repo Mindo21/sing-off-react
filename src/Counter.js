@@ -1,7 +1,6 @@
 import React from 'react';
-import './api';
-import api from './api';
 import './Counter.css';
+const api = require('./api');
 
 class Counter extends React.Component {
   constructor(props) {
@@ -72,7 +71,6 @@ class Counter extends React.Component {
         <button className="add" onClick={this.addToCounter}>add</button>
         <button className="set" onClick={this.setCounter}>set</button>
         <button className="delete" onClick={this.deleteCounter}>delete</button>
-        {/* <button className="refresh" onClick={this.refreshCounter}>refresh</button> */}
       </p>
     );
   }

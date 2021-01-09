@@ -11,12 +11,6 @@ class App extends React.Component {
     };
   }
 
-  // async refreshCounters() {
-  //   const newCounters = await Promise.all(this.state.counters.map(counter => {
-  //     return api.fetchCounter(counter.name);
-  //   }));
-  // }
-
   render(){
     const updateCounter = (newCounter) => {
       // find the index of the existing counter in the array

@@ -1,6 +1,5 @@
 import './AddNewCounter.css';
-import './api';
-import api from './api';
+const api = require('./api');
 
 function AddNewCounter(props) {
   const addNewCounter = async () => {
